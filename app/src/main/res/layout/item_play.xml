@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/play"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/detail_horizontal_offset"
+    android:layout_marginEnd="@dimen/detail_horizontal_offset"
+    android:layout_marginBottom="@dimen/detail_vertical_offset"
+    android:text="@string/play"
+    android:textAppearance="@style/TextAppearance.Wootch.Subtitle2"
+    app:backgroundTint="?attr/colorSecondary" />

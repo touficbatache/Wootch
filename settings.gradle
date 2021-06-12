@@ -1,0 +1,2 @@
+include ':app', ':vlc', ':base', ':connectsdk',
+rootProject.name='Wootch'

@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.Wootch" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.MaterialComponents.Dark</item>
+
+        <!-- System bar attributes -->
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">false</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Wootch.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Wootch.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Wootch.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Wootch.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Wootch.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Wootch.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Wootch.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Wootch.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Wootch.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Wootch.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Wootch.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Wootch.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Wootch.Overline</item>
+
+        <!-- Shape attributes -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Wootch.LargeComponent
+        </item>
+
+        <!-- Widget style attributes -->
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Wootch.BottomSheetDialog</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorPrimary">?android:attr/colorBackground
+        </item> <!-- App bar background color -->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark" />
+
+    <style name="Theme.Dialog.Transparent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Theme.Butter.RatingBar" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+    <style name="Theme.Wootch.MoreButton">
+        <item name="android:background">@drawable/read_more_bg</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Wootch.Subtitle2</item>
+    </style>
+
+    <style name="ShapeAppearance.Wootch.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ThemeOverlay.Wootch.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">false</item>
+    </style>
+
+    <style name="Widget.Wootch.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.Wootch.Button.PlayerSecondaryButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="iconTint">?attr/colorOnBackground</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textAppearance">@style/TextAppearance.Wootch.Subtitle2</item>
+    </style>
+
+</resources>

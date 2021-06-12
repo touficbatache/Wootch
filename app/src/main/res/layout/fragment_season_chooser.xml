@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        style="@style/TextAppearance.Wootch.Headline7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/detail_horizontal_offset"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingEnd="@dimen/detail_horizontal_offset"
+        android:paddingBottom="@dimen/list_vertical_padding"
+        android:text="Seasons"
+        android:textColor="?attr/colorOnBackground" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/list_vertical_padding"
+        android:layout_marginBottom="@dimen/list_vertical_padding"
+        android:background="@color/divider" />
+
+    <ListView
+        android:id="@+id/seasons_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "427932689305",
+    "firebase_url": "https://wootch-app.firebaseio.com",
+    "project_id": "wootch-app",
+    "storage_bucket": "wootch-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427932689305:android:8ff1208aa12c1eeecb6908",
+        "android_client_info": {
+          "package_name": "com.batache.wootch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427932689305-av09mfb8rv268c6b558qqaq2pk5d0gd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.batache.wootch",
+            "certificate_hash": "ac9627694ed1304aa7bdf6e0b7a4d270207f074c"
+          }
+        },
+        {
+          "client_id": "427932689305-gc95ilbq05k0njsjqtfsedgsfb6tno4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV07376nyKsU1oh4set7WCbLXqEHrrJ_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427932689305-gc95ilbq05k0njsjqtfsedgsfb6tno4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

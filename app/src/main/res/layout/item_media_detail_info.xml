@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/top"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@drawable/base_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="100dp"
+            android:paddingStart="@dimen/detail_horizontal_offset"
+            android:paddingLeft="@dimen/detail_horizontal_offset"
+            android:paddingTop="@dimen/detail_vertical_offset"
+            android:paddingEnd="@dimen/detail_horizontal_offset"
+            android:paddingRight="@dimen/detail_horizontal_offset"
+            android:paddingBottom="@dimen/detail_vertical_offset">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/poster"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="?android:attr/colorBackground"
+                app:cardCornerRadius="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/cover_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textAppearance="@style/TextAppearance.Wootch.Headline6"
+                app:layout_constraintStart_toEndOf="@id/poster"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Show Title" />
+
+            <LinearLayout
+                android:id="@+id/meta_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/detail_rating_margin_top"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toEndOf="@id/poster"
+                app:layout_constraintTop_toBottomOf="@id/title">
+
+                <TextView
+                    android:id="@+id/certification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/certification_bg"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_vertical"
+                    android:paddingStart="6dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="6dp"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/colorSecondaryOnBackground"
+                    android:textSize="@dimen/detail_meta_text_size"
+                    android:visibility="gone"
+                    tools:text="R" />
+
+                <TextView
+                    android:id="@+id/meta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorSecondaryOnBackground"
+                    android:textSize="@dimen/detail_meta_text_size"
+                    tools:text="2013 ● 94 min ● Animation" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/detail_meta_margin_top"
+                android:gravity="center_vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/poster"
+                app:layout_constraintTop_toBottomOf="@id/meta_container">
+
+                <RatingBar
+                    android:id="@+id/rating"
+                    style="@style/Theme.Butter.RatingBar"
+                    android:layout_width="80dp"
+                    android:layout_height="16dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:isIndicator="true"
+                    android:max="10"
+                    android:progress="5" />
+
+                <ImageView
+                    android:id="@+id/health"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:maxWidth="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_health_unknown"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/magnet"
+                    android:layout_width="15dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/magnet"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_action_magnet"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/synopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detail_vertical_offset"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/colorSecondaryOnBackground"
+                android:textDirection="locale"
+                android:textSize="@dimen/detail_desc_text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/poster"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac scelerisque diam. Etiam porttitor nibh vitae purus luctus, a efficitur orci aliquam. Nulla varius mollis nisi at sagittis. Nam consectetur augue eu consequat feugiat. Aliquam." />
+
+            <TextView
+                android:id="@+id/read_more"
+                style="@style/Theme.Wootch.MoreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/more"
+                app:layout_constraintBottom_toBottomOf="@id/synopsis"
+                app:layout_constraintEnd_toEndOf="@id/synopsis" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.08"
+            android:background="@color/colorOnBackground"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorOnBackground"
+            android:visibility="gone" />
+
+        <com.batache.wootch.ui.view.OptionSelector
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:visibility="gone"
+            app:optionIcon="@drawable/ic_av_subs"
+            app:optionText="@string/subtitles" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:background="@color/colorOnBackground"
+            android:visibility="gone" />
+
+        <com.batache.wootch.ui.view.OptionSelector
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:visibility="gone"
+            app:optionIcon="@drawable/ic_action_quality"
+            app:optionText="@string/quality" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

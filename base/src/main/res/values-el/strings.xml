@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="cancel">Ακύρωση</string>
+  <string name="close">Κλείσιμο</string>
+  <string name="ok">Εντάξει</string>
+  <string name="enabled">Ενεργοποιημένο</string>
+  <string name="disabled">Απενεργοποιημένο</string>
+  <string name="update_available">Διαθέσιμη νέα ενημέρωση</string>
+  <string name="wrong_abi">Ωχ! Χρησιμοποιείτε τη λάθος έκδοση του Popcorn Time για Android. Η σωστή έκδοση λαμβάνεται αυτή τη στιγμή, εάν είναι δυνατόν. Αν το πρόγραμμα εγκατάστασης δεν εκκινήσει μέσα σε ένα λεπτό τότε η συσκευή σας δεν υποστηρίζεται ή η σύνδεση σας στο ίντερνετ έχει κάποιο πρόβλημα, το οποίο σημαίνει ότι θα πρέπει να δοκιμάσετε ξανά αργότερα. Αν το πρόγραμμα εγκατάστασης αποτύχει τότε πρέπει να εγκαταστήσετε τη σωστή έκδοση χειροκίνητα.</string>
+  <string name="press_install">Πατήστε για εγκατάσταση</string>
+  <string name="loading_data">Φόρτωση δεδομένων…</string>
+  <string name="loading_details">Φόρτωση λεπτομερειών…</string>
+    <string name="loading_movies">Φόρτωση ταινιών…</string>
+    <string name="error_files">Σφάλμα: Απέτυχε η εγγραφή αρχείων</string>
+    <string name="unknown_error">Κάτι πήγε στραβά</string>
+  <string name="torrent_failed">Αποτυχία ανάκτησης torrent</string>
+  <string name="running">Τρέχει στο παρασκήνιο</string>
+    <string name="tap_to_resume">Πατήστε για συνέχιση</string>
+  <string name="stop">Διακοπή</string>
+  <!--Overview strings-->
+    <string name="title_shows">Σειρές</string>
+  <string name="title_movies">Ταινίες</string>
+  <string name="title_anime">Άνιμε</string>
+    <string name="subtitles">Υπότιτλοι</string>
+    <!--SettingsActivity strings-->
+    <string name="general">Γενικά</string>
+  <string name="default_view">Προεπιλεγμένη επισκόπηση</string>
+  <string name="default_player">Προεπιλεγμένο πρόγραμμα αναπαραγωγής βίντεο</string>
+  <string name="i18n_language">Γλώσσα εφαρμογής</string>
+  <string name="restart_effect">Επανεκκινήστε την εφαρμογή για να ισχύσουν οι αλλαγές</string>
+  <string name="device_language">Γλώσσα συσκευής</string>
+  <string name="stream_over_wifi_only">Ροή δεδομένων μόνο μέσω Wi-Fi</string>
+  <string name="internal_player">Εσωτερικό</string>
+  <string name="subtitle_color">Χρώμα</string>
+  <string name="subtitle_size">Μέγεθος</string>
+  <string name="subtitle_timing">Χρονισμός υποτίτλων</string>
+  <string name="subtitle_stroke_color">Χρώμα περιγράμματος</string>
+  <string name="subtitle_stroke_width">Πλάτος περιγράμματος</string>
+  <string name="default_subtitle_language">Προκαθορισμένη γλώσσα</string>
+  <string name="subtitle_language">Γλώσσα υποτίτλων</string>
+  <string name="subtitle_settings">Ρυθμίσεις υποτίτλων</string>
+  <string name="no_default_set">Καμία προκαθορισμένη γλώσσα</string>
+  <string name="advanced">Προχωρημένες</string>
+  <string name="storage_location">Τοποθεσία αποθήκευσης</string>
+    <string name="remove_cache">Αφαίρεση κρυφής μνήμης στο κλείσιμο</string>
+  <string name="hw_acceleration">Επιτάχυνση υλικού</string>
+  <string name="hw_automatic">Αυτόματα</string>
+  <string name="hw_full">Πλήρης</string>
+  <string name="hw_decoding">Αποκωδικοποίηση μόνο</string>
+  <string name="updates">Ενημερώσεις</string>
+  <string name="auto_updates">Αυτόματες ενημερώσεις</string>
+  <string name="check_for_updates">Έλεγχος για ενημερώσεις</string>
+  <string name="last_check">Τελευταίος έλεγχος</string>
+  <string name="about_app">Περί</string>
+  <string name="version">Έκδοση</string>
+  <string name="changelog">Αρχείο αλλαγών</string>
+  <string name="tap_to_open">Πατήστε για άνοιγμα</string>
+  <string name="report_a_bug">Αναφορά προβλήματος</string>
+  <string name="open_source_licenses">Άδειες ανοιχτού κώδικα</string>
+  <string name="torrents">Torrents</string>
+  <string name="download_speed">Μέγιστη ταχύτητα λήψης</string>
+  <string name="upload_speed">Μέγιστη ταχύτητα αποστολής</string>
+  <string name="max_connections">Μέγιστες συνολικές συνδέσεις</string>
+    <string name="unlimited">Απεριόριστο</string>
+  <string name="show_vpn">Εμφάνιση επιλογής VPN στο μενού</string>
+  <string name="pixel_format">Εξαναγκασμός χρωματισμού βίντεο</string>
+  <string name="rgb32">RGB 32-bit: Προεπιλεγμένος χρωματισμός</string>
+  <string name="rgb16">RGB 16-bit: Καλύτερη επίδοση, χαμηλότερη ποιότητα</string>
+  <string name="yuv">YUV: Καλύτερη επίδοση αλλά δεν λειτουργεί πάντα</string>
+  <string name="best_fit">Βέλτιστη προσαρμογή</string>
+  <string name="fill">Γέμισμα</string>
+  <string name="fit_horizontal">Οριζόντια προσαρμογή</string>
+  <string name="fit_vertical">Κάθετη προσαρμογή</string>
+  <string name="original_size">Αρχική</string>
+  <!--DetailActivity strings-->
+  <string name="minutes">λεπτά</string>
+    <string name="no_subs">Χωρίς υπότιτλους</string>
+    <string name="quality">Ποιότητα</string>
+    <string name="magnet">Magnet</string>
+    <!--About as in 'About serie X'-->
+    <!--VideoPlayerActivity strings-->
+    <string name="genre_all">Όλα</string>
+    <!--Genres-->
+  <string name="genre_action">Δράση</string>
+  <string name="genre_adventure">Περιπέτεια</string>
+  <string name="genre_animation">Κινούμενα σχέδια</string>
+    <string name="genre_comedy">Κωμωδία</string>
+  <string name="genre_crime">Έγκλημα</string>
+    <string name="genre_documentary">Ντοκιμαντέρ</string>
+  <string name="genre_drama">Δράμα</string>
+  <string name="genre_family">Οικογένεια</string>
+  <string name="genre_fantasy">Φαντασία</string>
+  <string name="genre_film_noir">Φιλμ νουάρ</string>
+    <string name="genre_history">Ιστορία</string>
+    <string name="genre_horror">Τρόμος</string>
+    <string name="genre_music">Μουσική</string>
+    <string name="genre_mystery">Μυστήριο</string>
+    <string name="genre_romance">Ρομάντζο</string>
+  <string name="genre_sci_fi">Επιστημονική φαντασία</string>
+  <string name="genre_short">Μικρού μήκους</string>
+    <string name="genre_sport">Αθλητικά</string>
+  <string name="genre_suspense">Αγωνία</string>
+    <string name="genre_thriller">Θρίλερ</string>
+  <string name="genre_war">Πόλεμος</string>
+  <string name="genre_western">Γουέστερν</string>
+  <!--Anime:-->
+  <string name="genre_cars">Αυτοκίνητα</string>
+  <string name="genre_dementia">Dementia</string>
+  <string name="genre_demons">Δαίμονες</string>
+  <string name="genre_ecchi">Ecchi</string>
+  <string name="genre_game">Παιχνίδι</string>
+  <string name="genre_harem">Χάρεμ</string>
+    <string name="genre_kids">Παιδικά</string>
+  <string name="genre_magic">Μαγεία</string>
+  <string name="genre_martial_arts">Πολεμικές τέχνες</string>
+  <string name="genre_mecha">Μέκα</string>
+  <string name="genre_military">Στρατός</string>
+  <string name="genre_police">Αστυνομία</string>
+  <string name="genre_parody">Παρωδία</string>
+  <string name="genre_psychological">Ψυχολογικά</string>
+  <string name="genre_samurai">Σαμουράι</string>
+  <string name="genre_school">Σχολείο</string>
+    <string name="genre_shoujo_ai">Σότζο άι</string>
+    <string name="genre_shounen_ai">Σόνεν άι</string>
+  <string name="genre_slice_of_life">Slice of life</string>
+  <string name="genre_space">Διάστημα</string>
+  <string name="genre_super_power">Υπερδυνάμεις</string>
+  <string name="genre_supernatural">Υπερφυσικά</string>
+  <string name="genre_vampire">Βρυκόλακες</string>
+  <!--Possible tabs-->
+  <string name="popular">ΔΗΜΟΦΙΛΗ</string>
+  <string name="top_rated">ΚΟΡΥΦΑΙΑ ΒΑΘΜΟΛΟΓΙΑ</string>
+  <string name="release_date">ΗΜΕΡΟΜΗΝΙΑ ΚΥΚΛΟΦΟΡΙΑΣ</string>
+  <string name="last_updated">ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ</string>
+  <string name="year">ΕΤΟΣ</string>
+  <string name="a_to_z">Α - Ω</string>
+  <string name="trending">ΤΑΣΕΙΣ</string>
+    <!--BeamManager-->
+  <string name="beaming">Beaming</string>
+  <string name="pairing_tv">Σύζευξη με την τηλεόραση</string>
+  <string name="confirm_tv">Παρακαλώ επιβεβαιώστε την σύνδεση με την τηλεόρασή σας</string>
+  <string name="enter_pairing_code">Εισάγετε τον κωδικό σύζευξης στην τηλεόρασή σας</string>
+  <!--TermsActivity strings-->
+  <string name="open_with">Άνοιγμα με</string>
+    <string name="reload_video">Εκ νέου φόρτωση βίντεο</string>
+  <!--Health-->
+  <string name="health_info">Υγεία : %1$s, Τροφοδότες: %2$d, Αποδέκτες: %3$d</string>
+  <string name="health_bad">Κακή</string>
+  <string name="health_medium">Μέτρια</string>
+  <string name="health_good">Καλή</string>
+  <string name="health_excellent">Τέλεια</string>
+  <string name="health_unknown">Άγνωστη</string>
+  <!--StreamLoadingActivity strings-->
+    <!--VideoPlayerActivity strings-->
+    <!--WifiOnlyDialogFragment-->
+    <!--NavigationDrawer-->
+    <!--AboutFragment-->
+    <!--Beam dialog-->
+    <!--Android TV below-->
+    <!--Main screen-->
+    <string name="more">Περισσότερα</string>
+    <string name="play">Αναπαραγωγή</string>
+    <string name="loading">Γίνεται φόρτωση…</string>
+    <!--PTVUpdateFragment-->
+    <!--PTVSettingsFragment-->
+    <string name="less">Πιο λιγο</string>
+</resources>

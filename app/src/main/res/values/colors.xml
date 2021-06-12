@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff355c</color>
+    <color name="colorSecondary">#cc2848</color>
+    <color name="colorControlHighlight">#14ff355c</color>
+    <color name="colorBackground">#202124</color>
+    <color name="colorOnBackground">#e8eaed</color>
+    <color name="colorSecondaryOnBackground">#9aa0a6</color>
+    <color name="colorBottomNavigationItem">#80868b</color>
+    <color name="colorBottomNavigationIconSelected">#f8f9fa</color>
+    <color name="colorBottomNavigationTextSelected">#ffffff</color>
+    <color name="colorChipSelected">#991e36</color>
+    <color name="colorChipStroke">#80868b</color>
+
+    <color name="overlay">#33000000</color>
+    <color name="black_60_alpha">#99000000</color>
+
+    <color name="divider">#5f6368</color>
+    <color name="colorOnBackgroundSelection">#26e8eaed</color>
+    <color name="outlineColor">#3c4043</color>
+
+    <color name="player_overlay">#55000000</color>
+    <color name="beamplayer_seekbar_track">#2A2E30</color>
+
+    <color name="selectable_focused">#22FFFFFF</color>
+    <color name="selectable_pressed">#55FFFFFF</color>
+</resources>
